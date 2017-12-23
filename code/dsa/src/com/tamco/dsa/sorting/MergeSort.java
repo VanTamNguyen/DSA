@@ -6,8 +6,17 @@ public class MergeSort {
 
     public static void main(String[] args) {
         int[] array = {0, 2, 5, 6, 9, 1, 5, 9, 9, 9};
-        merge(array, 0, 4, 9);
+        sort(array, 0, 9);
         System.out.println(Arrays.toString(array));
+    }
+
+    public static void sort(int[] items, int low, int high) {
+        if (low < high) {
+            int mid = (low + high) / 2;
+            sort(items, low, mid);
+            sort(items, mid + 1, high);
+            merge(items, low, mid, high);
+        }
     }
 
     public static void merge(int[] items, int low, int mid, int high) {
