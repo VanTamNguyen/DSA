@@ -8,4 +8,5 @@
 ## Hash table
 [Hash table videos by Prof Robert Sedgewick, Princeton University](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11&index=1)
 
-## Tree
+## Searching
+### Binary Search
